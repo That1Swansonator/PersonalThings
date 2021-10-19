@@ -1,4 +1,3 @@
-package hw6;
 import java.util.Scanner;
 import java.util.ArrayList;
 

@@ -1,4 +1,3 @@
-package hw6;
 import java.util.Scanner;
 
 public class Pro6Support 
@@ -18,7 +17,7 @@ public class Pro6Support
 				break;
 
 			else
-				continue;
+				safeToAdd = 1;
 
 		}
 
@@ -39,7 +38,7 @@ public class Pro6Support
 			
 			//Print indexes and arrays
 			for (int i = 0; i < stor.length; i++) 
-				System.out.print(i + ",  ");
+				System.out.print(i + "|  ");
 			
 			System.out.println();
 
